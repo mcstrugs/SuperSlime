@@ -22,6 +22,7 @@ public class SuperSlimeBlock extends TransparentBlock {
        return VoxelShapes.cuboid(0f,0f,0f,1f,0.5f,1f);
    }
 
+   @Override
     public void onEntityLand(BlockView world, Entity entity) {
        this.bounce(entity);
     }
@@ -34,6 +35,7 @@ public class SuperSlimeBlock extends TransparentBlock {
         }
     }
 
+    @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
        entity.setVelocity(entity.getVelocity().multiply(25, 1.01, 25).add(0,1,0));
     }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "WWW",
+    "ZZZ"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:gunpowder"
+    },
+    "W": {
+      "item": "minecraft:redstone"
+    },
+    "Z": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "mcstrugs:super_slime"
+  }
+}
